@@ -104,162 +104,163 @@ class $en extends S {
   const $en();
 }
 
-class $zh_CN extends S {
-  const $zh_CN();
+class $vi extends S {
+  const $vi();
 
   @override
   TextDirection get textDirection => TextDirection.ltr;
 
   @override
-  String get favourites => "收藏";
+  String get favourites => "Yêu thích";
   @override
-  String get appUpdateLeastVersion => "已是最新版本";
+  String get appUpdateLeastVersion => "cập nhật";
   @override
-  String get twoPwdDifferent => "两次密码不一致";
+  String get twoPwdDifferent => "Khác nhau";
   @override
-  String get viewStateButtonRetry => "重试";
+  String get viewStateButtonRetry => "Thử lại";
   @override
-  String get about => "关于";
+  String get about => "về";
   @override
-  String get unLike => "取消收藏";
+  String get unLike => "Bỏ thích";
   @override
-  String get signUp => "注册";
+  String get signUp => "Đăng kí";
   @override
-  String get viewStateMessageEmpty => "空空如也";
+  String get viewStateMessageEmpty => "Trống";
   @override
-  String get appUpdateActionInstallApk => "直接安装";
+  String get appUpdateActionInstallApk => "Cài đặt";
   @override
-  String get viewStateMessageUnAuth => "未登录";
+  String get viewStateMessageUnAuth => "Bạn chưa có tài khoản";
   @override
-  String get setting => "设置";
+  String get setting => "Cài dặt";
   @override
-  String get settingFont => "字体";
+  String get settingFont => "Phông chữ";
   @override
-  String get feedback => "意见反馈";
+  String get feedback => "Đánh giá";
   @override
-  String get logout => "退出登录";
+  String get logout => "Đăng xuất";
   @override
-  String get password => "请输入密码";
+  String get password => "Mật khẩu";
   @override
-  String get searchShake => "换一换";
+  String get searchShake => "Lắc";
   @override
-  String get Like => "收藏";
+  String get Like => "Yêu thích";
   @override
-  String get viewStateMessageNetworkError => "网络连接异常,请检查网络或稍后重试";
+  String get viewStateMessageNetworkError => "Lỗi, hãy thử lại";
   @override
-  String get appUpdateActionDownloadAgain => "重新下载";
+  String get appUpdateActionDownloadAgain => "down load";
   @override
-  String get autoBySystem => "跟随系统";
+  String get autoBySystem => "Auto";
   @override
-  String get viewStateButtonRefresh => "刷新一下";
+  String get viewStateButtonRefresh => "Refresh";
   @override
-  String get appUpdateDoubleBackTips => "再次点击返回键,取消下载";
+  String get appUpdateDoubleBackTips => "Huỷ download";
   @override
-  String get loadFailed => "加载失败,请稍后重试";
+  String get loadFailed => "Load lỗi";
   @override
-  String get refreshTwoLevel => "欢迎光临,我的空中楼阁";
+  String get refreshTwoLevel => "phát hành để vào tầng hai";
   @override
-  String get article_tag_top => "置顶";
+  String get article_tag_top => "Top";
   @override
-  String get appUpdateDownloadFailed => "下载失败";
+  String get appUpdateDownloadFailed => "Download failed";
   @override
-  String get appUpdateReDownloadContent => "检测到本地已下载过该版本,是否直接安装?";
+  String get appUpdateReDownloadContent =>
+      "It has been detected that it has been downloaded, whether it is installed?";
   @override
-  String get noAccount => "还没账号? ";
+  String get noAccount => "Bạn không có tài khoản? ";
   @override
-  String get openBrowser => "浏览器打开";
+  String get openBrowser => "Mở trình duyệt";
   @override
-  String get appUpdateActionUpdate => "更新";
+  String get appUpdateActionUpdate => "Update";
   @override
-  String get coin => "积分";
+  String get coin => "coin";
   @override
-  String get splashSkip => "跳过";
+  String get splashSkip => "Bỏ qua";
   @override
-  String get collectionRemove => "移除收藏";
+  String get collectionRemove => "Xoá";
   @override
-  String get actionConfirm => "确认";
+  String get actionConfirm => "Xác nhận";
   @override
-  String get fontKuaiLe => "快乐字体";
+  String get fontKuaiLe => "ZCOOL KuaiLe";
   @override
-  String get appUpdateCheckUpdate => "检查更新";
+  String get appUpdateCheckUpdate => "Check Update";
   @override
-  String get settingLanguage => "多语言";
+  String get settingLanguage => "Ngôn ngữ";
   @override
-  String get myFavourites => "我的收藏";
+  String get myFavourites => "Yêu thích";
   @override
-  String get signIn3thd => "第三方登录";
+  String get signIn3thd => "Thêm nữa";
   @override
-  String get welcome => "欢迎登录小寓优品";
+  String get welcome => "Welcome";
   @override
-  String get viewStateMessageError => "加载失败";
+  String get viewStateMessageError => "load lỗi";
   @override
-  String get rate => "评分";
+  String get rate => "đánh giá";
   @override
-  String get actionCancel => "取消";
+  String get actionCancel => "Huỷ";
   @override
-  String get theme => "色彩主题";
+  String get theme => "Theme";
   @override
-  String get share => "分享";
+  String get share => "Chia sẻ";
   @override
-  String get appUpdateUpdate => "版本更新";
+  String get appUpdateUpdate => "version update";
   @override
-  String get fieldNotNull => "不能为空";
+  String get fieldNotNull => "not null";
   @override
-  String get close => "关闭";
+  String get close => "đóng";
   @override
-  String get retry => "重试";
+  String get retry => "thử lại";
   @override
-  String get wechatAccount => "公众号";
+  String get wechatAccount => "wechat";
   @override
-  String get toSignUp => "去注册";
+  String get toSignUp => "Đăng kí";
   @override
-  String get appUpdateDownloading => "下载中,请稍后...";
+  String get appUpdateDownloading => "Loading...";
   @override
-  String get appName => "爱Music";
+  String get appName => "Love Music";
   @override
-  String get tabUser => "我的";
+  String get tabUser => "Me";
   @override
-  String get clear => "清空";
+  String get clear => "Xoá";
   @override
-  String get needLogin => "请先登录";
+  String get needLogin => "Đăng nhập";
   @override
-  String get refresh => "刷新";
+  String get refresh => "refresh";
   @override
-  String get toSignIn => "点我登录";
+  String get toSignIn => "Đăng nhập";
   @override
-  String get albums => "歌集";
+  String get albums => "albums";
   @override
-  String get viewAll => "查看所有";
+  String get viewAll => "Xem tất cả";
   @override
-  String get forYou => "推荐";
+  String get forYou => "Dành cho bạn";
   @override
-  String get userName => "请输入账户名";
+  String get userName => "Tên đăng nhập";
   @override
-  String get appUpdateDownloadCanceled => "下载已取消";
+  String get appUpdateDownloadCanceled => "Cancel";
   @override
-  String get tabSearch => "搜索";
+  String get tabSearch => "search";
   @override
-  String get searchResult => "搜索结果：";
+  String get searchResult => "Kết quả tìm kiếm:";
   @override
-  String get tabMusic => "音乐";
+  String get tabMusic => "Âm nhạc";
   @override
-  String get tabFavorite => "收藏";
+  String get tabFavorite => "Yêu thích";
   @override
-  String get rePassword => "确认密码";
+  String get rePassword => "Nhập lại mật khẩu";
   @override
-  String get signIn => "登录";
+  String get signIn => "Đăng nhập";
   @override
-  String get githubIssue => "未找到邮件客户端,请前往github,提issue";
+  String get githubIssue => "issue";
   @override
-  String get viewStateButtonLogin => "登录";
+  String get viewStateButtonLogin => "Đăng nhập";
   @override
-  String get searchHot => "热门搜索";
+  String get searchHot => "searchHot";
   @override
-  String get searchSuggest => "歌名 歌手名 专辑名";
+  String get searchSuggest => "searchSuggest";
   @override
-  String get darkMode => "黑夜模式";
+  String get darkMode => "Dark Mode";
   @override
-  String get searchHistory => "历史搜索";
+  String get searchHistory => "searchHistory";
   @override
   String appUpdateFoundNewVersion(String version) => "发现新版本$version,是否更新?";
 }
@@ -270,7 +271,7 @@ class GeneratedLocalizationsDelegate extends LocalizationsDelegate<S> {
   List<Locale> get supportedLocales {
     return const <Locale>[
       Locale("en", ""),
-      Locale("zh", "CN"),
+      Locale("vi", ""),
     ];
   }
 
@@ -300,8 +301,8 @@ class GeneratedLocalizationsDelegate extends LocalizationsDelegate<S> {
         case "en":
           S.current = const $en();
           return SynchronousFuture<S>(S.current);
-        case "zh_CN":
-          S.current = const $zh_CN();
+        case "vi":
+          S.current = const $vi();
           return SynchronousFuture<S>(S.current);
         default:
         // NO-OP.

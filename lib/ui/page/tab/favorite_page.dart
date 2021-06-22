@@ -111,7 +111,7 @@ class _FavoritePageState extends State<FavoritePage>
           ),
           Expanded(
             child: favoriteModel.favoriteSong.length == 0
-                ? Center(child: Text('none'))
+                ? Center(child: Text('You have no favorite song!'))
                 : ListView.builder(
                     itemCount: favoriteModel.favoriteSong.length,
                     itemBuilder: (BuildContext context, int index) {

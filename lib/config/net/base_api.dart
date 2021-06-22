@@ -10,11 +10,7 @@ class Http extends BaseHttp {
   @override
   void init() {
     options.baseUrl = 'https://music.liuzhijin.cn';
-    interceptors..add(ApiInterceptor())
-        /*// cookie持久化 异步
-      ..add(CookieManager(
-          PersistCookieJar(dir: StorageManager.temporaryDirectory.path)))*/
-        ;
+    interceptors..add(ApiInterceptor());
   }
 }
 

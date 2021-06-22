@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_music_app/config/provider_manager.dart';
-import 'package:flutter_music_app/config/router_manager.dart';
+import 'package:flutter_music_app/config/router_manager.dart' as Router;
 import 'package:flutter_music_app/config/storage_manager.dart';
 import 'package:flutter_music_app/generated/i18n.dart';
 import 'package:flutter_music_app/model/local_view_model.dart';
@@ -43,8 +43,8 @@ class MyApp extends StatelessWidget {
                 GlobalWidgetsLocalizations.delegate
               ],
               supportedLocales: S.delegate.supportedLocales,
-              onGenerateRoute: Router.generateRoute,
-              initialRoute: RouteName.splash,
+              onGenerateRoute: Router.Router.generateRoute,
+              initialRoute: Router.RouteName.splash,
             ),
           );
         }));
